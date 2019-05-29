@@ -12,6 +12,7 @@ end
 
 function PartitionRect(a, b, base, height, L)
 % 기본 단계
+% 마지막 단계에서만 흰색 사각형을 칠한다.
 if L == 1
     % 가로형 직사각형인 경우
     if base > height
